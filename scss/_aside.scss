@@ -1,0 +1,90 @@
+.aside {
+ width: 33%;
+}
+
+.about {
+ 	background-color: $contentBg;
+	margin-top: $featuredMargin;
+ 	padding: $contentPadding;
+ 	font-size: 16px;
+ 	height: 300px;
+ 	margin-bottom: 10px;
+}
+
+.about img {
+	float: left;
+	width: 35%;
+	margin-right: 10px;
+}
+
+.about p {
+	line-height: 	1.4;
+}
+
+.jams {
+ 	background-color: $contentBg;
+	margin-top: $featuredMargin;
+ 	padding: $contentPadding;
+ 	height: 300px;
+
+}
+
+.mix {
+ 	background-color: $contentBg;
+	margin-top: $featuredMargin;
+ 	padding: $contentPadding;
+ 	font-size: 14px;
+}
+
+.mix p {
+	margin-top: 5px;
+}
+
+.mix span {
+	font-weight: bold;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.archive {
+ 	background-color: $contentBg;
+	margin-top: $featuredMargin;
+ 	padding: $contentPadding;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+	padding-bottom: 45px;
+}
+
+.archive h3 {
+	font-size: 25px;
+	padding: 5px;
+}
+
+.archive ul li {
+	padding: 16px;
+	font-size: 15px;
+}
+
+.archive ul li:last-child {
+	padding-bottom: 50px;
+}
+
+.archive a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+// ADDING A TESTER COMMENT JUST TO SEE IF I CAN MERGE THIS BACK, NOTHING ACTUALLY CHANGED

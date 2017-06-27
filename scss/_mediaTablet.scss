@@ -1,0 +1,144 @@
+//LANDSCAPE
+
+@media screen and (max-width: 1510px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 1223px) {
+  .wrapper {
+    display: block;
+    width: 90%;
+  }
+
+  .content {
+    display: block;
+    width: 100%;
+  }
+
+  .aside {
+    display: block;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .about,
+  .jams,
+  .mix,
+  .archive
+   {
+    width: calc((100% / 2) - 15px);
+    float: left;
+    min-height: 250px;
+  }
+  .jams,
+  .archive {
+    margin-left: 30px;
+  }
+}
+
+
+//footer socials break
+
+@media screen and (max-width: 1180px) {
+  .right-content {
+      font-size: 6rem;
+  }
+
+  footer {
+    height: 160px;
+  }
+
+  .copyright {
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1003px) {
+
+  .wrapper {
+    display: block;
+    width: 90%;
+  }
+
+  .right-content {
+      font-size: 5.5rem;
+  }
+
+}
+
+//footer socials break
+@media screen and (max-width: 920px) {
+  .right-content {
+      font-size: 5rem;
+  }
+}
+
+
+@media screen and (max-width: 895px) {
+
+  .wrapper {
+    width: 95%;
+  }
+
+  .right-content {
+      font-size: 4.5rem;
+  }
+
+
+  .left-content ul li a {
+  font-size: 1.8rem;
+  }
+
+
+}
+
+//PORTRAIT
+
+
+@media screen and (max-width: 785px) {
+
+  .wrapper {
+    width: 99%;
+  }
+
+}
+
+@media screen and (max-width: 775px) {
+
+  .wrapper {
+    width: 100%;
+  }
+
+}
+
+//ICONS BREAKING
+
+@media screen and (max-width: 661px) {
+
+  footer {
+    height: 120px;
+  }
+
+  .right-content {
+    font-size: 3.8rem;
+  }
+
+  .left-content {
+    width: 50%;
+  }
+
+}

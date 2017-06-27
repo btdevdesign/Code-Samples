@@ -1,0 +1,65 @@
+//SASS 
+
+///////////
+//IMPORTS//
+///////////
+
+/////////////
+//VARIABLES// (turn into a partial scss after.....)
+/////////////
+
+//typography
+$fontStack: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+$pSize: 1.6rem;
+$h1Size: 3.2rem;
+$h2Size: 2.8rem;
+$h3Size: 2.1rem;
+
+$pColor: #333;
+$h1Color: #680148;
+$h2Color: black;
+$h3Color: #4C0035;
+
+$h2Size: 3.552rem;
+$h2Weight: bold;
+$h2Underline: 5px solid #d321d5;
+$h2Padding: 0 0 10px 0;
+
+$linkColor: #680148;
+$hoverColor: #9A2978;
+
+//structure
+$bodyWidth: 100%;
+$bodyBg: black;
+
+$contentBg: white;
+$contentMargin: 2.8vw;
+$contentTopMargin: 9%;
+$contentPadding: 2vw;
+
+$featuredMargin: 2vw;
+
+$headerWidth: 80%;
+
+$logoImg: url('../images/logo.png');
+
+$navWidth: 100%;
+$navMinHeight: 25px;
+$navBg: #d321d5; // magenta ish, used in nav/footer
+
+$navMenuWidth: calc(100% / 3);
+
+$mainWidth: 80%;
+$mainMinHeight: 100vh;
+$mainBg: #fff;
+
+$featuredTextSpan: rgb(255,17,236);
+
+$articleWidth: auto;	
+$articleMinHeight: auto;
+
+$footWidth: 100%;
+$footMinHeight: 50px;
+$footBg: #d321d5;
+

@@ -1,0 +1,287 @@
+//LANDSCAPE
+
+@media screen and (max-width: 768px) {
+
+  header  {
+    background-color: $navBg;
+  }
+
+  //nav bar
+  .btn-mobile-menu {
+    margin: 14px 13px 15px 0;
+
+    cursor: pointer;
+    display: block;
+
+    width: 42px;
+    height: 30px;
+    background-color: transparent;
+    background-image: url(../images/hamburger.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    text-indent: 650px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .btn-mobile-menu:focus{
+    outline:none;
+  }
+
+  .navbar {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+    margin: 0;
+  }
+
+
+  .show-mobile-menu .navbar {
+    height: 231px;
+  }
+
+
+  .navbar ul {
+    display:block;
+    margin: 0;
+  }
+  .navbar li {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: 3px 20px;
+    border-bottom: 1px solid #000;
+    margin: 0;
+  }
+  .navbar li:first-child {
+    border-top: 1px solid #000;
+  }
+
+
+  .navbar ul li a {
+    line-height: 15px;
+    margin: 0;
+    font-size: 1.77rem;
+  }
+
+  .navbar li:focus,
+  .navbar li:hover,
+  .navbar li:active {
+    background-color: #ff11ec;
+  }
+
+  .navbar a:hover {
+     color: white;
+  }
+
+  //end nav
+
+  .content{
+    margin: 0;
+  }
+
+  .featured {
+    width: 100%;
+    display: block;
+    padding: 6.4% 8% 5% 8%;
+    margin-top: 0;
+  }
+
+  .featured h2 {
+    border-bottom: 21px solid transparent;
+  }
+  .featured h2:after {
+    border-bottom: 7px solid #d321d5;
+
+  }
+  .featured span {
+    margin: auto 0;
+    font-size: 2.368rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4;
+    height:  30%;
+  }
+
+  .featured span p {
+    margin-top: 20px;
+
+  }
+
+  .feat-left,
+  .feat-right {
+    width: 100%;
+  }
+
+  .feat-content,
+  .feat-right div {
+    flex: none;
+    display: block;
+    width: 100%;
+  }
+
+  .feat-left,
+  .feat-right div {
+    margin-bottom: 20px;
+  }
+
+  .feat-right div {
+    margin-left: 0;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest .top div {
+    display: block;
+    flex: none;
+  }
+
+  .latest .top div p:nth-of-type(1),
+  .latest .top div p:nth-of-type(2) {
+    display: block;
+  }
+
+  .latest .mid {
+    flex: none;
+    display: block;
+    width: 100%;
+  }
+
+  .latest .mid img,
+  .latest .mid p {
+    width: 100%;
+  }
+
+  .latest .top .date,
+  .latest .top .title {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .latest .top .comments {
+   border-bottom: none;
+   text-decoration: underline;
+  }
+
+  //this is my great shame
+
+  .latest .mid p {
+    margin-left: 0px;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
+  .post-wrapper {
+    display: block;
+  }
+
+
+  .about,
+  .jams,
+  .mix,
+  .archive {
+    float: none;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .about img {
+    width: 30%;
+  }
+
+  .left-content ul {
+    display: none;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 0;
+    height: 180px;
+  }
+
+  #lift{
+    position: absolute;
+    top: 80px;
+    font-size: 2rem;
+  }
+
+  .right-content {
+    position: absolute;
+    top: -20px;
+  }
+
+  .copyright {
+    position: absolute;
+
+  }
+
+
+
+
+}
+
+//span text breaks
+@media screen and (max-width: 550px) {
+
+ .featured span p {
+    margin-top: 10px;
+    font-size: 2rem;
+
+  }
+
+}
+
+//copyright text breaks
+@media screen and (max-width: 435px) {
+
+  .copyright {
+    position: absolute;
+    font-size: 1.4rem;
+  }
+
+}
+
+
+
+//span text breaks
+@media screen and (max-width: 420px) {
+
+ .featured span p {
+    margin-top: 5px;
+    font-size: 1.75rem;
+
+  }
+
+}
+
+//copyright text breaks
+@media screen and (max-width: 410px) {
+
+  #lift{
+    font-size: 1.6rem;
+  }
+
+  .copyright {
+    position: absolute;
+    font-size: 1.3rem;
+  }
+
+}
+
+
+//PORTRAIT
+
+@media screen and (max-width: 355px) {
+
+}
